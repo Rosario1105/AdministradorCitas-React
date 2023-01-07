@@ -63,7 +63,7 @@ const Formulario = ({ crearCita }) => {
     <Fragment>
       <h2>Crear citas</h2>
 
-      {error ? <p className="alert-error">Todos los campos son</p> : null}
+      {error ? <p className="alert-error">Todos los campos son obligatorios</p> : null}
       <form onSubmit={submitCita}>
         <label>Nombre Mascota</label>
         <input
